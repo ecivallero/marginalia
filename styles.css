@@ -144,12 +144,12 @@ margin: 1em 20px;
 aside {
 width: 10%;
 float: right;
-text-align: left;
+text-align: right;
 margin: 0 auto;
 padding: 0;
 }
 
-/* Navegación 01
+/* Navegación
 ----------------------------------------------- */
 
 .nav01 {
@@ -182,36 +182,6 @@ color: #a22a22;
 float: right;
 padding: 10px 0px 15px 30px;
 }
-
-/* Navegación 02
------------------------------------------------ */
-
-.nav02 {
-width: 75%;
-margin: 0 auto;
-font-family: Verdana, sans-serif;
-font-size: 1.1em;
-padding-top:15px;
-} 
-.nav02 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #ffffff;
-}
-.nav02 li {
-float: left;
-display: block;
-padding: 10px 30px 15px 0px;
-}
-.nav02 li a {
-text-decoration: none;
-color: #333333;
-}
-.nav02 li a:hover {
-color: #a22a22;
-  }
 
 /* Color line
 ----------------------------------------------- */
@@ -272,14 +242,14 @@ line-height: 2em;
 .titlelat {
 font-family: Verdana, sans-serif;
 font-size: 1.1em;
-text-align: left;
+text-align: right;
 list-style: none;
 border-bottom: 1px dotted #ccc;
 }
 .titlelat01 {
 font-family: Verdana, sans-serif;
 font-size: 1.1em;
-text-align: left;
+text-align: right;
 list-style: none;
 border-top: 1px dotted #ccc;
 border-bottom: 1px dotted #ccc;
@@ -313,17 +283,6 @@ color: #333333;
 color: #a22a22;
 }
 .footer01 p {
-text-align: justify;
-}
-#pie {
-width: 75%;
-margin: 0 auto;
-clear: both;
-padding: 10px 50px;
-font-family: Verdana, sans-serif;
-font-size: 1em;
-color: #333333;
-line-height: 200%;
 text-align: justify;
 }
 
@@ -400,29 +359,7 @@ font-family: Verdana, sans-serif;
 font-size: 0.8em;
 padding-top: 15px;
 } 
-.nav02 {
-width: 100%;
-margin: 0 auto;
-font-family: Verdana, sans-serif;
-font-size: 0.8em;
-padding-top: 15px;
-} 
-.nav02 ul {
-list-style-type: none;
-margin: 0 auto;
-padding: 0;
-overflow: hidden;
-background-color: #ffffff;
-}
-.nav02 li {
-float: none;
-display: inline-block;
-padding: 10px 30px 15px 0px;
-}
-.nav02 #alignright {
-float: none;
-}
-#futuro, .redes, #pie, .divcolor01 {
+.redes, .divcolor01 {
 	visibility: hidden;
 	display: none;
 }
@@ -442,29 +379,3 @@ float: none;
 
 }
 
-/* Media queries for Small devices (tablets) */
-
-@media only screen and (min-width: 600px) and (max-width: 800px) {
-
-#futuro {
-	visibility: hidden;
-	display: none;
-}
-
-}
-
-/* Media queries for Medium devices (laptops) */
-
-@media only screen and (min-width: 800px) and (max-width: 1000px) {
-
-#futuro {
-	visibility: hidden;
-	display: none;
-}
-
-}
-
-/* Media queries for Large devices (Desktops) */
-
-@media only screen and (min-width: 1000px) {
-}
