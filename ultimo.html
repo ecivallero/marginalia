@@ -1,38 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-<title>Marginalia. Espacios de conocimiento y memoria desde los márgenes</title>	
+<title>Marginalia. Espacios de conocimiento y memoria desde los márgenes</title>
 
 <!-- metadatos -->
 
 <meta charset="utf-8" />
-<meta name="title" content="Edgardo Civallero"/>	
-<meta name="description" content="Marginalia: Revista sobre bibliotecas, archivos y museos, explorando la memoria y el conocimiento desde una perspectiva crítica y marginal"/>
-<meta name="keywords" content="bibliotecas, archivos, museos, memoria, conocimiento, perspectivas críticas, márgenes, patrimonio cultural, espacios de saber, historia, revista académica, cultura, acceso a la información, estudios bibliotecarios, interdisciplinariedad"/>
-<meta name="revisit-after" content="2 days" />
+<meta name="description" content="Marginalia: Revista sobre bibliotecas, archivos y museos, explorando la memoria y el conocimiento desde una perspectiva crítica y marginal."/>
 <meta name="author" content="Edgardo Civallero" />
-<meta name="robot" content="index, follow" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta http-equiv="imagetoolbar" content="no" />
 
-<!-- Font Awesome -->
+<!-- Stylesheets -->
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-<!-- Inicio CSS -->
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css" />
 
 <!-- Fin CSS -->
-
-<!-- Inicio Script -->
-
-<script type="text/javascript">
-cookieChoices = {};
-</script>
-
-<!-- Fin Script -->
 
 </head>
 
@@ -42,29 +27,25 @@ cookieChoices = {};
 
 <header>
 
-<!-- Inicio de la barra de navegación -->
+<!-- Inicio de la barra de navegación #01 -->
 
-<nav>
-<div class="nav01">
-<ul>
-<li><a href="index.html">inicio</a></li>
-<li><a href="revista.html" title="Sobre la revista" alt="Sobre la revista">sobre la revista</a></li>
-<li><a href="revista.html#contacto" title="Contacto" alt="Contacto">contacto</a></li>
-<li id="alignright"><a href="instrucciones.html" title="Instrucciones para autores" alt="Instrucciones para autores">instrucciones para autores</a></li>
-<li id="alignright"><a href="metricas.html" title="Métricas" alt="Métricas">métricas</a></li>
-</ul>
-</div>
-</nav>
+<div data-include="includes/nav01.html"></div>
 
-<!-- Fin de la barra de navegación -->
+<!-- Fin de la barra de navegación #01 -->
 
 <div class="divcolor"></div>
 
-<!—Imagen de cabecera -->
+<!-- Inicio de la imagen de cabecera -->
 
-<img src="img/cabecera.png" alt="Cabecera de Marginalia" />
+<div class="site-header"></div>
 
 <!-- Fin de la imagen de cabecera -->
+
+<!-- Inicio de la barra de navegación #02 -->
+
+<div data-include="includes/nav02.html"></div>
+
+<!-- Fin de la barra de navegación #02 -->
 
 <div class="divcolor"></div>
 
@@ -82,19 +63,24 @@ cookieChoices = {};
 
 <article>
 
-<!-- <img src="img/cab01.png" alt="Marginalia. Último número publicado" />
-<hr /> -->
-
-<p class="title">Último número publicado</p>
+<header>
+<img src="img/cab01.png" alt="Marginalia. Último número publicado" />
 <hr />
-<p><a href="index.html" title="Inicio" alt="Inicio">Inicio</a> > Último número publicado</p>
+<h1>Último número publicado</h1>
+<hr />
+<p><a href="index.html" title="Inicio">Inicio</a> > Último número publicado</p>
+</header>
+
 <p>&nbsp;</p>
+
+<section>
 <p>
 El último número de <i>Marginalia</i> representa una cuidadosa curaduría de las contribuciones más significativas de nuestro espacio. Cada edición completa te ofrece una experiencia profunda y temática, un viaje colectivo a través de ideas, formatos y narrativas seleccionadas para inspirar y desafiar.</p>
 <p>
 Aquí encontrarás una lista de artículos con enlaces directos a cada uno. También tendrás la opción de descargar el número completo en formato PDF, para disfrutarlo donde y cuando prefieras.</p>
 <p>
 [En construcción].</p>
+</section>
 
 </article>
 
@@ -102,18 +88,7 @@ Aquí encontrarás una lista de artículos con enlaces directos a cada uno. Tamb
 
 <!-- Inicio de aside -->
 
-<aside>
-
-<meta http-equiv="Content-Type" content="text/html; charset=<$BlogEncoding$>" />
-
-<ul class="titlelat">
-<li><a href="novedades.html" title="Últimos contenidos publicados" alt="Últimos contenidos publicados">novedades</a></li>
-<li><a href="ultimo.html" title="Último número publicado" alt="Último número publicado">último</a></li>
-<li><a href="archivo.html" title="Archivo de ediciones anteriores" alt="Archivo de ediciones anteriores">archivo</a></li>
-<li><a href="indice.html" title="Índice" alt="Índice">indice</a></li>
-</ul>
-
-</aside>
+<div data-include="includes/aside.html"></div>
 
 <!-- Fin de aside -->
 
@@ -123,22 +98,12 @@ Aquí encontrarás una lista de artículos con enlaces directos a cada uno. Tamb
 
 <!-- Inicio del pie -->
 
-<footer>
-
-<div class="divcolor"></div>
-
-<div class="footer01">
-
-<p class="redes">
-<a href="https://www.facebook.com/edgardo.civallero" target="_blank" title="Facebook" alt="Facebook"><span class="fa fa-facebook-square" style="font-size:3.3em; color:#999999;"></span></a><a href="https://es.linkedin.com/in/edcivallero" target="_blank" title="LinkedIn" alt="LinkedIn"><span class="fa fa-linkedin-square" style="font-size:3.3em; color:#999999;"></span></a><a href="https://www.instagram.com/edcivallero/" target="_blank" title="Instagram" alt="Instagram"><span class="fa fa-instagram" style="font-size:3.3em; color:#999999;"></span></a>
-</p>
-<p id="alignright">© Edgardo Civallero | <a href="licencias.html" title="Licencias y derechos de autor" alt="Licencias y derechos de autor">licencias y derechos de autor</a></p>
-
-</div>
-
-</footer>
+<div data-include="includes/footer.html"></div>
 
 <!-- Fin del Pie -->
 
+<script src="scripts/include.js"></script>
+
 </body>
 </html>
+
