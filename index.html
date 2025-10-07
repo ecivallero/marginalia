@@ -1,98 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-<title>Revista Marginalia | Conocimiento y memoria desde los márgenes</title>
+  <meta charset="utf-8" />
+  <title>Marginalia | Revista de memorias y saberes desde los márgenes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Marginalia: journal de ensayos, notas de campo y reseñas sobre memoria, bibliotecas, clasificación, sonido y territorio." />
+  <meta name="author" content="Edgardo Civallero" />
 
-<!-- metadatos -->
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.png">
 
-<meta charset="utf-8" />
-<meta name="description" content="Revista digital crítica sobre bibliotecas, archivos, museos y memorias marginales. Marginalia publica saberes, narrativas y formatos desde las periferias."/>
-<meta name="author" content="Edgardo Civallero" />
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-<!-- Stylesheets -->
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
-<link rel="stylesheet" href="styles.css" />
-
-<!-- Fin CSS -->
-
+  <!-- Estilos -->
+  <link rel="stylesheet" href="marginalia.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+  <!-- HEADER INCLUDE -->
+  <div data-include="includes/header.html"></div>
 
-<!-- Inicio de la cabecera -->
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="m-layout" id="main" role="main">
 
-<header>
+    <!-- ARTÍCULO PRINCIPAL -->
+    <article class="m-article" role="article">
+      <section class="m-card">
+        <p class="m-section">ENSAYO</p>
+        <h2>Escuchar lo que no está: notas sobre archivo acústico y silencio estructural</h2>
+        <p class="m-meta">| 28 de agosto de 2025 · 12 min |</p>
+        <p>
+          ¿Qué ocurre cuando el archivo no es una estantería sino una bahía? Cuando la memoria se
+          sostiene en voz, eco y silencio, y la catalogación insiste en pedir papel. Este ensayo propone
+          una escucha que no traduce todo a texto, y una semántica que no borra la vibración.
+        </p>
+        <p><a class="m-read" href="/ensayos/escuchar-lo-que-no-esta.html" aria-label="Leer ensayo: Escuchar lo que no está">Leer →</a></p>
+      </section>
 
-<!-- Inicio de la barra de navegación #01 -->
+      <hr>
 
-<div data-include="includes/nav.html"></div>
+      <section class="m-list">
+        <article class="m-item">
+          <p class="m-section">NOTA DE CAMPO</p>
+          <h3>Cartografías de lo efímero</h3>
+          <p class="m-meta">| 23 de agosto de 2025 · 6 min |</p>
+          <p>Un apunte sobre graffiti, peinados y cestería como documentos con fecha de vencimiento.</p>
+          <p><a class="m-read" href="/notas/cartografias-efimero.html">Leer →</a></p>
+        </article>
 
-<!-- Fin de la barra de navegación #01 -->
+         <hr>
 
-<div class="divcolor"></div>
+        <article class="m-item">
+          <p class="m-section">RESEÑA</p>
+          <h3>Contra el literocentrismo en la práctica catalográfica</h3>
+          <p class="m-meta">| 18 de agosto de 2025 · 8 min |</p>
+          <p>Un libro que intenta romper los códigos escritos como única puerta de entrada a la memoria.</p>
+          <p><a class="m-read" href="/resenas/literocentrismo.html">Leer →</a></p>
+        </article>
 
-<!-- Inicio de la imagen de cabecera -->
+         <hr>
 
-<div class="site-header"></div>
+        <article class="m-item">
+          <p class="m-section">EDITORIAL</p>
+          <h3>Por qué “Marginalia”</h3>
+          <p class="m-meta">| 10 de agosto de 2025 · 4 min |</p>
+          <p>Un manifiesto breve sobre escribir en los bordes y editar como cuidado.</p>
+          <p><a class="m-read" href="/editorial/por-que-marginalia.html">Leer →</a></p>
+        </article>
+      </section>
+    </article>
 
-<!-- Fin de la imagen de cabecera -->
+    <!-- ASIDE INCLUDE -->
+    <div data-include="includes/aside-rail.html"></div>
+  </main>
 
-<div class="divcolor"></div>
+  <!-- FOOTER INCLUDE -->
+  <div data-include="includes/footer.html"></div>
 
-<div class="barra"></div>
-
-</header>
-
-<!-- Fin de la cabecera -->
-
-<!-- Inicio de Main -->
-
-<main>
-
-<!-- Inicio de article -->
-
-<article>
-
-<section>
-<p class="titular"><b>Últimos contenidos</b></p>
-<img src="imgpost/A.jpg" alt="Revista Marginalia. Últimos contenidos" />
-<br />
-<h2><b>Lorem ipsum dolor sit amet</b></h2>
-<p style="font-size: 80%;">| Publicado el 24 de abril de 2025 |</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non ipsum mollis, porttitor lorem vel, tincidunt lacus. Praesent aliquet ipsum a vulputate tristique. Praesent pellentesque faucibus nisl vitae egestas. Etiam sollicitudin diam sed pharetra euismod. Nunc eget vulputate leo. Phasellus eu ipsum eu metus fermentum commodo suscipit at lectus. Sed imperdiet in orci ac placerat. Donec ac urna imperdiet, aliquet sapien id, lobortis urna. Donec quis feugiat enim. Nulla commodo tincidunt justo, quis dignissim ante pulvinar sed.</p>
-<p>
-[<a href="" title="Continuar leyendo…">Continuar leyendo...</a>]</p>
-<p>
-<span class="fa fa-reorder" style="color: #999999;"></span>&nbsp;&nbsp;<a href="" title="Todas las entradas">Todos los últimos contenidos</a>
-</p>
-</section>
-
-</article>
-
-<!-- Fin article -->
-
-<!-- Inicio de aside -->
-
-<div data-include="includes/aside.html"></div>
-
-<!-- Fin de aside -->
-
-</main>
-
-<!-- Fin de main -->
-
-<!-- Inicio del pie -->
-
-<div data-include="includes/footer.html"></div>
-
-<!-- Fin del Pie -->
-
-<script src="scripts/include.js"></script>
-
+  <!-- INCLUDE SCRIPT -->
+<script src="scripts/include.js" defer></script>
 </body>
 </html>
